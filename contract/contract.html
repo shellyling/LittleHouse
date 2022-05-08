@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contract.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="font.css">
+</head>
+
+<body>
+    <div class="nav-log-out">
+        <div>
+            <a href="#">搜尋</a>
+            <a href="#">刊登房屋</a>
+        </div>
+        <div>
+            <a href="#"><img src="../imgs/LOGO.svg" alt=""></a>
+        </div>
+        <div>
+            <a href="#">清潔服務</a>
+            <a href="#">會員登入/註冊</a>
+        </div>
+    </div>
+    <!-- 登出狀態 -->
+    <!-- <div class="nav-log-in">
+        <div>
+            <a href="#">搜尋</a>
+            <a href="#">刊登房屋</a>
+        </div>
+        <div>
+            <a href="#"><img src="./imgs/LOGO.svg" alt=""></a>
+        </div>
+        <div>
+            <a href="#">清潔服務</a>
+            <a href="#">個人頁面</a>
+            <a href="#">登出</a>
+        </div>
+    </div>
+    登入狀態 -->
+
+    <div class="step-bar1">
+        <div class="progress">
+            <ul>
+                <li>選擇租屋</li>
+                <li>確認租屋</li>
+                <li>線上合約</li>
+                <li class="unfinish">線上付款</li>
+                <li class="unfinish">租屋完成</li>
+            </ul>
+        </div>
+    </div>
+    <h2>只需要六步驟， 即可快速完成簽約流程！</h2>
+
+    <div class="step-bar2">
+        <p>Step1.契約資料填寫</p>
+        <div class="progress2">
+            <div class="progress-bar2"></div>
+        </div>
+    </div>
+    <!--------------- minder------------>
+    <section>
+        <div class="minder">
+            <p>是否自動帶入已填寫之會員資料</p>
+        </div>
+        <div class="select">
+            <label for="" style="font-size:24px; font-weight: bold; color:#0E2E3D;">是</label>
+            <input type="radio" name="gender" id="yes">
+
+            <label for="" style="font-size:24px;font-weight: bold; color:#0E2E3D ;margin-left: 10px;">否</label>
+            <input type="radio" name="gender" id="no">
+        </div>
+    </section>
+    <section classe="section2">
+        <h3>基本資料</h3>
+    </section>
+    <!----------------- 表單地獄---------------------->
+    <div class="container-form">
+        <!-----------------第一排 ---------------->
+        <div class="form-row">
+            <form class="form" action="#">
+                <label for="person">姓名</label>
+                <input type="text" name="person">
+            </form>
+
+            <form class="form" action="#"></form>
+            <label for="phone">電話</label>
+            <input type="phone" name="phone">
+            </form>
+
+            <form class="form" action="#"></form>
+            <label for="phone">電話</label>
+            <input type="phone" name="phone">
+            </form>
+        </div>
+
+        <!-----------------第2排 ---------------->
+        <div class="form-row2">
+            <form class="form" action="#">
+                <label for="person">姓名</label>
+                <input type="text" name="person">
+            </form>
+
+            <form class="form" action="#"></form>
+            <label for="phone">電話</label>
+            <input type="phone" name="phone">
+            </form>
+
+            <form class="form" action="#"></form>
+            <label for="phone">電話</label>
+            <input type="phone" name="phone">
+            </form>
+        </div>
+
+        <!-----------------第三排 ---------------->
+        <div class="form-row3">
+            <form class="form" action="#">
+                <label for="person">姓名</label>
+                <input type="text" name="person">
+            </form>
+
+            <form class="form" action="#"></form>
+            <label for="phone">電話</label>
+            <input type="phone" name="phone">
+            </form>
+
+            <label for="country">地址</label>
+            <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+        </div>
+    </div>
+
+    <!-------------- 表單地獄------------------->
+
+    <div class="time">
+        <h3>租屋期限</h3>
+    </div>
+
+    <!-------------- 租屋期限_起------------------->
+    <div class="container-time">
+        <div class="container-form2">
+            <div class="ValidFrom-row2">
+                <div class="ValidFrom_Y">
+                    <label for="country">起年</label>
+                    <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+                </div>
+
+
+                <div class="ValidFrom_M">
+                    <label for="country">起月</label>
+                    <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+                </div>
+
+
+                <div class="ValidFrom_D">
+                    <label for="country">起日</label>
+                    <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+        <!-------------- 租屋期限_起------------------->
+
+        <div class="time2">
+            <h3>至</h3>
+        </div>
+
+        <!-------------- 租屋期限_止------------------->
+
+
+        <div class="container-form2">
+            <div class="ValidFrom-row2">
+                <div class="ValidFrom_Y">
+                    <label for="country">起年</label>
+                    <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+                </div>
+
+
+                <div class="ValidFrom_M">
+                    <label for="country">起月</label>
+                    <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+                </div>
+
+
+                <div class="ValidFrom_D">
+                    <label for="country">起日</label>
+                    <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-------------- 租屋期限_止------------------->
+
+    <div class="time3">
+        <h3>租屋期限共</h3>
+    </div>
+
+
+    <!-------------------total time--------- -->
+    <div class="container-form">
+        <div class="form-row">
+            <form class="form" action="#">
+                <label for="person">年</label>
+                <input type="text" name="person">
+            </form>
+
+            <form class="form" action="#"></form>
+            <label for="phone">月</label>
+            <input type="phone" name="phone">
+            </form>
+
+        </div>
+    </div>
+
+    <!------------------button--------- -->
+    <div class="container-button">
+        <div class="button-row">
+
+            <button class="button">清除資料</button>
+            <button class="button button2">送出</button>
+
+        </div>
+    </div>
+</body>
+
+</html>

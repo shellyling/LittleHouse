@@ -1,0 +1,405 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 48px;
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 32px;
+}
+
+h3 {
+    font-weight: normal;
+    font-size: 24px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.small {
+    font-size: 12px;
+}
+
+.slogan {
+    font-size: 128px;
+}
+
+.time {
+    font-size: 48px;
+}
+
+.alert {
+    color: red;
+}
+
+.nav-log-out {
+    margin: auto;
+    width: 100%;
+    max-width: 1920px;
+    height: 100px;
+    display: flex;
+    background-color: #F1EDEA;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.nav-log-out a {
+    font-weight: normal;
+    font-size: 24px;
+    color: #0E2E3D;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-log-out div {
+    width: 33.3%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-log-out div:nth-child(2) {
+    justify-content: center;
+}
+
+.nav-log-out a img {
+    width: 100%;
+    height: 81px;
+}
+
+
+/*登出狀態*/
+
+.nav-log-in {
+    margin: auto;
+    width: 100%;
+    max-width: 1920px;
+    height: 100px;
+    display: flex;
+    background-color: #F1EDEA;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.nav-log-in a {
+    font-weight: normal;
+    font-size: 24px;
+    color: #0E2E3D;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-log-in div:nth-child(2) {
+    justify-content: center;
+}
+
+.nav-log-in div {
+    display: flex;
+    justify-content: space-between;
+    width: 33.3%;
+}
+
+.nav-log-in a img {
+    width: 100%;
+    height: 81px;
+}
+
+
+/* 登入狀態*/
+
+
+/* 以上是nav ----------------------------*/
+
+.container {
+    padding: 0 200px;
+}
+
+
+/* 首頁第一頁開始 */
+
+.x-home-page-slogan {
+    width: 100%;
+    max-width: 1920px;
+    height: 100vh;
+    max-height: 1080px;
+    margin: auto;
+    background: url(../imgs/cut-patrick-perkins-3wylDrjxH-E-unsplash\ 3.jpg) no-repeat center/100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.x-slogan {
+    margin-top: 180px;
+}
+
+.x-slogan h1 {
+    font-size: 120px;
+    font-weight: 900;
+    color: #FEAC00;
+    text-shadow: 4px 4px #F4F4F4;
+}
+
+.x-slogan h1:nth-child(1) {
+    margin-bottom: -50px;
+    margin-top: -100px;
+}
+
+.x-slogan h1:nth-child(2) {
+    margin-bottom: 10px;
+}
+
+.x-slogan-small p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F1EDEA;
+}
+
+.x-slogan-small p {
+    margin-bottom: 40px;
+}
+
+.x-search-post button:nth-child(1) {
+    margin-right: 30px;
+}
+
+.pc-button-FEAC00 {
+    width: 280px;
+    height: 60px;
+    color: #0E2E3D;
+    font-weight: bold;
+    font-size: 24px;
+    border: none;
+    background-color: #FEAC00;
+}
+
+.pc-button-F4F4F4 {
+    width: 280px;
+    height: 60px;
+    color: #0E2E3D;
+    font-weight: bold;
+    font-size: 24px;
+    border: none;
+    background-color: #F4F4F4;
+}
+
+
+/* 首頁共租介紹開始 */
+
+.x-home-page-introduce-symbiosis {
+    width: 100%;
+    max-width: 1920px;
+    height: 100vh;
+    max-height: 920px;
+    margin: auto;
+    background: url(../imgs/cut-espolon-tequila-xCsalofaxw4-unsplash\ 1.jpg) no-repeat center/100% 100%;
+    padding-top: 125px;
+    margin-bottom: 100px;
+}
+
+
+/* 首頁分租介紹開始 */
+
+.x-home-page-introduce-sublease {
+    width: 100%;
+    max-width: 1920px;
+    height: 100vh;
+    max-height: 920px;
+    margin: auto;
+    background: url(../imgs/living-room-1835923_1920.jpg) no-repeat center/100% 100%;
+    padding-top: 125px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 100px;
+}
+
+
+/* 首頁共租以及分租的內文格式 */
+
+.x-introduce {
+    width: 665px;
+    height: 845px;
+    background-color: #F1EDEA;
+    padding: 120px 80px 80px 80px;
+}
+
+.x-introduce h1 {
+    font-size: 48px;
+    margin-bottom: 40px;
+}
+
+.x-introduce p {
+    font-size: 16px;
+    letter-spacing: -8%;
+}
+
+
+/* 刊登房屋/清潔服務開始 */
+
+.x-home-page-post-clean {
+    width: 1660px;
+    height: 952px;
+    display: flex;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+.x-home-page-post-clean-left-post {
+    display: flex;
+    flex-direction: column;
+}
+
+.x-home-page-post-clean-right-clean {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.x-home-page-post-clean-left-post div:nth-child(1),
+.x-home-page-post-clean-right-clean div:nth-child(1) {
+    width: 830px;
+    height: 230px;
+    background-color: #F1EDEA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.x-home-page-post-clean-left-post div:nth-child(2) {
+    width: 830px;
+    height: 720px;
+    background: url(../imgs/cut-spacejoy-umAXneH4GhA-unsplash\ 1.jpg) no-repeat center/100%;
+}
+
+.x-home-page-post-clean-right-clean div:nth-child(2) {
+    width: 830px;
+    height: 720px;
+    background: url(../imgs/cut-ashwini-chaudhary-monty-Iu6parQAO-U-unsplash\ 1.jpg) no-repeat center/100%;
+}
+
+
+/* 首頁卡片版 */
+
+
+/* 以下是footer-------------------------------- */
+
+.footer {
+    width: 100%;
+    max-width: 1920px;
+    margin: auto;
+    font-weight: normal;
+    font-size: 24px;
+    color: #0E2E3D;
+}
+
+.footer-up {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    padding: 0 200px;
+    background-color: #F1EDEA;
+    justify-content: space-between;
+}
+
+.footer-left {
+    width: 390px;
+    height: 260px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-left-up p {
+    margin-bottom: 30px;
+}
+
+.footer-left-down a {
+    text-decoration: none;
+    color: #0E2E3D;
+}
+
+.footer-left-down a:nth-child(1),
+.footer-left-down a:nth-child(2) {
+    margin-right: 30px;
+}
+
+.footer-right img {
+    width: 497px;
+    height: 394px;
+}
+
+.footer-down div img {
+    width: 30px;
+    height: 28px;
+}
+
+.footer-down {
+    width: 100%;
+    max-width: 1920px;
+    height: 80px;
+    padding: 0 200px;
+    background-color: #F4F4F4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-down div {
+    display: flex;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-down div:nth-child(2) {
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-down div:nth-child(3) {
+    justify-content: flex-end;
+}
+
+.footer-down div:nth-child(1) {
+    justify-content: flex-start;
+}
+
+.footer-down div:nth-child(1) p,
+.footer-down div:nth-child(1) img {
+    margin-right: 24px;
+}
+
+
+/* footer---------------------------------- */

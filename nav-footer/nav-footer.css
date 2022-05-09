@@ -15,7 +15,7 @@
     background-color: #F1EDEA;
     justify-content: space-between;
     align-items: center;
-    padding: 0% 200px;
+    padding: 0% 345px;
     position: fixed;
     top: 0;
     left: 0;
@@ -56,7 +56,7 @@
     background-color: #F1EDEA;
     justify-content: space-between;
     align-items: center;
-    padding: 0% 200px;
+    padding: 0% 345px;
     position: fixed;
     top: 0;
     left: 0;
@@ -108,7 +108,7 @@
     height: 500px;
     display: flex;
     align-items: center;
-    padding: 0 200px;
+    padding: 0 345px;
     background-color: #F1EDEA;
     justify-content: space-between;
 }
@@ -136,8 +136,8 @@
 }
 
 .footer-right img {
-    width: 497px;
-    height: 394px;
+    width: 378px;
+    height: 300px;
 }
 
 .footer-down div img {
@@ -149,7 +149,7 @@
     width: 100%;
     max-width: 1920px;
     height: 80px;
-    padding: 0 200px;
+    padding: 0 345px;
     background-color: #F4F4F4;
     display: flex;
     align-items: center;

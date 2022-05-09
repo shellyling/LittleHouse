@@ -67,7 +67,11 @@ p {
     max-width: 1920px;
     height: 100px;
     background-color: #F1EDEA;
+    margin: auto;
     display: flex;
+    position: fixed;
+    left: 0;
+    top: 0;
 }
 
 .nav-log-out a,
@@ -112,6 +116,7 @@ p {
     width: 100%;
     max-width: 1920px;
     background-color: #F1EDEA;
+    margin: auto;
 }
 
 .footer-up {

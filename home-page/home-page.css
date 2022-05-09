@@ -6,52 +6,6 @@
     font-family: 'Noto Sans TC', sans-serif;
 }
 
-h1,
-h2,
-h3,
-p {
-    margin: 0;
-}
-
-.bold {
-    font-weight: bold;
-}
-
-h1 {
-    font-weight: bold;
-    font-size: 48px;
-}
-
-h2 {
-    font-weight: bold;
-    font-size: 32px;
-}
-
-h3 {
-    font-weight: normal;
-    font-size: 24px;
-}
-
-p {
-    font-size: 16px;
-}
-
-.small {
-    font-size: 12px;
-}
-
-.slogan {
-    font-size: 128px;
-}
-
-.time {
-    font-size: 48px;
-}
-
-.alert {
-    color: red;
-}
-
 
 /* 以上是文字 ----------------------------*/
 
@@ -116,7 +70,7 @@ body {
     margin-right: 30px;
 }
 
-.pc-button-FEAC00 {
+.pc-button-FEAC00-280 {
     width: 280px;
     height: 60px;
     color: #0E2E3D;
@@ -126,7 +80,7 @@ body {
     background-color: #FEAC00;
 }
 
-.pc-button-F4F4F4 {
+.pc-button-F4F4F4-280 {
     width: 280px;
     height: 60px;
     color: #0E2E3D;
@@ -177,7 +131,7 @@ body {
     background-color: #F1EDEA;
     padding: 80px 100px 80px 100px;
     margin-left: auto;
-    margin-right: -102px;
+    margin-right: 0;
 }
 
 .x-introduce-left {
@@ -186,7 +140,7 @@ body {
     background-color: #F1EDEA;
     padding: 80px 100px 80px 100px;
     margin-right: auto;
-    margin-left: -102px;
+    margin-left: 0;
 }
 
 .x-introduce-right h2,
@@ -207,7 +161,7 @@ body {
     height: 696px;
     display: flex;
     margin: auto;
-    margin-bottom: 80px;
+    margin-bottom: 195px;
 }
 
 .x-home-page-post-clean-left-post {
@@ -244,3 +198,177 @@ body {
 
 
 /* 首頁卡片版 */
+
+.x-home-page-hover-card {
+    width: 100%;
+    max-width: 1750px;
+    min-width: 1230px;
+    height: 580px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.x-home-page-hover-card div {
+    margin: auto;
+    float: left;
+    width: 19%;
+    margin: 30px 0.5%;
+    height: 0px;
+    padding-bottom: 24.98%;
+    /* 
+    width: 350px;
+    height: 513px; */
+}
+
+.x-home-page-hover-card div:nth-child(1) {
+    transform: rotate(-15deg) translateX(160px);
+    background: url(../imgs/rendy-novantino-_3Pyr85zcE8-unsplash.jpg) no-repeat center/cover;
+}
+
+.x-home-page-hover-card div:nth-child(2) {
+    transform: rotate(15deg) translateX(40px);
+    background: url(../imgs/toa-heftiba-l_ExpFwwOEg-unsplash\ \(1\).jpg) no-repeat center/cover;
+}
+
+.x-home-page-hover-card div:nth-child(3) {
+    transform: rotate(0deg) translateX(-10px);
+    background: url(../imgs/katarzyna-grabowska-oA1-rirIJ2E-unsplash.jpg) no-repeat center/cover;
+}
+
+.x-home-page-hover-card div:nth-child(4) {
+    transform: rotate(-6deg) translateX(-40px);
+    background: url(../imgs/jaco-pretorius-aGZeHyx-jfo-unsplash.jpg) no-repeat center/cover;
+}
+
+.x-home-page-hover-card div:nth-child(5) {
+    transform: rotate(15deg) translateX(-160px);
+    background: url(../imgs/20220404001923_79-scaled.jpg) no-repeat center/cover;
+}
+
+
+/* 首頁三特點介紹 */
+
+.x-home-page-three-element-bg {
+    margin: auto;
+    width: 100%;
+    max-width: 1920px;
+    height: 350px;
+    background: url(../imgs/living-room-1835923_1920.jpg) no-repeat 100% 80%/cover;
+}
+
+.x-home-page-three-element {
+    margin-bottom: 80px;
+    margin-top: -175px;
+}
+
+.x-home-page-three-element-out {
+    margin: auto;
+    width: 1230px;
+    background-color: #F1EDEA;
+    padding: 100px 93px 133px 93px;
+}
+
+.x-home-page-three-element-out h2 {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.x-home-page-three-element-txt {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.x-home-page-three-element-txt-single {
+    width: 312px;
+    height: 320px;
+}
+
+.x-home-page-three-element-txt-single div,
+.x-home-page-three-element-txt-single h3 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+
+/* 四步驟 */
+
+.x-home-page-step-slogan {
+    width: 100%;
+    height: 275px;
+    background-color: #F1EDEA;
+    padding: 73px 245px 73px 245px;
+}
+
+.x-home-page-step-slogan h2 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.x-home-page-step-1-2 {
+    width: 100%;
+    height: 546px;
+    display: flex;
+}
+
+.x-home-page-step-2-4 {
+    width: 100%;
+    height: 546px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.x-home-page-step-1-2-txt,
+.x-home-page-step-1-2-img {
+    width: 50%;
+    height: 100%;
+}
+
+.x-home-page-step-1-2-img {
+    background: url(../imgs/arkan-perdana-eKTLh4_u7Ao-unsplash.jpg) no-repeat center/cover;
+}
+
+.x-home-page-step-2-4-img {
+    width: 50%;
+    height: 100%;
+}
+
+.x-home-page-step-2-4-img {
+    background: url(../imgs/tierra-mallorca-rgJ1J8SDEAY-unsplash.jpg) no-repeat center/cover;
+}
+
+.x-home-page-step-1-2-txt div {
+    width: 50%;
+    height: 50%;
+    float: left;
+    margin: 0px;
+}
+
+.x-home-page-step-1-2-txt div:nth-child(1),
+.x-home-page-step-1-2-txt div:nth-child(4) {
+    padding: 70px 80px;
+    background-color: #F1EDEA;
+}
+
+.x-home-page-step-1-2-txt div:nth-child(1) h3,
+.x-home-page-step-1-2-txt div:nth-child(4) h3 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.x-home-page-step-1-2-txt div:nth-child(2),
+.x-home-page-step-1-2-txt div:nth-child(3) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.x-home-page-step-1-2-txt div:nth-child(2) img,
+.x-home-page-step-1-2-txt div:nth-child(3) img {
+    width: 150px;
+    height: 150px;
+}

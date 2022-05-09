@@ -19,6 +19,7 @@
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 9999;
 }
 
 .nav-log-out a {
@@ -91,11 +92,22 @@
 
 /* 以上是nav ----------------------------*/
 
+
+
+
+
+
+
+
+
+
+/*  */
 .container {
     /* width: 80%; */
     max-width: 1280px;
     min-height: 1500px;
-    margin: 120px auto;
+    padding: 0 25px;
+    /* margin: 120px auto; */
     /* border: 1px solid red; */
 }
 
@@ -163,7 +175,7 @@
     width: 50%;
     /* height: 820px; */
     /* border: 1px solid green; */
-    background: url(../new_house/brian-babb-XbwHrt87mQ0-unsplash.jpg)center center/cover no-repeat;
+    background: url(../imgs/spacejoy-sh6Aj176NAQ-unsplash.jpg)center center/cover no-repeat;
 }
 
 .S-product-img-right {
@@ -180,14 +192,14 @@
     width: 100%;
     height: 50%;
     /* border: 1px solid purple; */
-    background: url(../new_house/house-1172352.jpg)center center/cover no-repeat;
+    background: url(../imgs/spacejoy-sh6Aj176NAQ-unsplash.jpg)center center/cover no-repeat;
 }
 
 .S-product-img-right-down {
     width: 100%;
     height: 50%;
     /* border: 1px solid purple; */
-    background: url(../new_house/house-interior_WDVIQZEXML.jpg)center center/cover no-repeat;
+    background: url(../imgs/spacejoy-sh6Aj176NAQ-unsplash.jpg)center center/cover no-repeat;
 }
 
 
@@ -355,7 +367,7 @@
 .S-lg-card-img {
     width: 100%;
     height: 100%;
-    background: url(../old_house/1521821703_54177.jpg) 70% center/ cover;
+    background: url(../imgs/spacejoy-sh6Aj176NAQ-unsplash.jpg) 70% center/ cover;
 }
 
 .S-lg-card-info {

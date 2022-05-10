@@ -1,3 +1,52 @@
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 48px;
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 32px;
+}
+
+h3 {
+    font-weight: normal;
+    font-size: 24px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.small {
+    font-size: 12px;
+}
+
+.slogan {
+    font-size: 128px;
+}
+
+.time {
+    font-size: 48px;
+}
+
+.alert {
+    color: red;
+}
+
+
+/* 以上是文字 */
+
 .pc-button-FEAC00-280 {
     width: 280px;
     height: 60px;

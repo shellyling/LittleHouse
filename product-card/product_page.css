@@ -1,0 +1,271 @@
+.body{
+    margin: 0;
+}
+.container{
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid red; */
+}
+
+
+
+/* --------------lg-card 卡片-------------------------------- */
+.S-lg-card-wrap{
+    width: 487px;
+    height: 447px;
+    overflow: hidden;
+    position: relative;
+    /* border: 1px solid blue; */
+}
+.S-lg-share{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    font-size: 1.3em;
+    color: #0E2E3D;
+    background-color: #F1EDEA;
+    border-radius: 50%;
+    position: absolute;
+    top: 3%;
+    right: 3%;
+}
+.S-lg-share i{
+    font-size: 1.2em;
+}
+.S-lg-like{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    color: #0E2E3D;
+    background-color: #F1EDEA;
+    border-radius: 50%;
+    position: absolute;
+    top: 3%;
+    right: 15%;
+}
+.S-lg-like svg{
+    width: 30px;
+    height: 30px;
+    fill: #0E2E3D;
+}
+
+
+.S-lg-card{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+}
+.S-lg-card-img{
+    width: 100%;
+    height: 100%;
+    background: url(../old_house/1521821703_54177.jpg) 70% center/ cover ;
+}
+.S-lg-card-info{
+    padding: 0 20px;
+    /* border: 1px solid rgb(45, 95, 112); */
+    background-color: #F1EDEA;
+    margin: 0;
+}
+.S-lg-card-info h4{
+    height: 1em;
+    font-size: 12px;
+}
+.S-lg-card-info h4 span{
+    font-size: 16px;
+    font-weight: 900;
+    padding-right: 10px;
+}
+.S-lg-card-info-2{
+    height: 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.S-lg-card-info p{
+    font-size: .8em;
+}
+.S-lg-card-info h3{
+    display: inline;
+}
+
+/* --------------md-card 卡片-------------------------------- */
+
+.S-md-card-wrap{
+    margin-top: 50px;
+    width: 335px;
+    height: 314px;
+    overflow: hidden;
+    position: relative;
+    /* border: 1px solid blue; */
+}
+.S-md-share{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    font-size: 1.2em;
+    color: #0E2E3D;
+    background-color: #F1EDEA;
+    border-radius: 50%;
+    position: absolute;
+    top: 3%;
+    right: 3%;
+}
+.S-md-share i{
+    font-size: 1.2em;
+}
+.S-md-like{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    font-size: 1.2em;
+    color: #0E2E3D;
+    background-color: #F1EDEA;
+    border-radius: 50%;
+    position: absolute;
+    top: 3%;
+    right: 18%;
+}
+.S-md-like svg{
+    width: 25px;
+    height: 25px;
+    fill: #0E2E3D;
+}
+
+
+.S-md-card{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+}
+.S-md-card-img{
+    width: 100%;
+    height: 100%;
+    background: url(../old_house/1521821703_54177.jpg) 70% center/ cover ;
+}
+.S-md-card-info{
+    padding: 0 20px;
+    /* border: 1px solid rgb(45, 95, 112); */
+    background-color: #F1EDEA;
+    margin: 0;
+}
+.S-md-card-info h4{
+    height: 1em;
+    font-size: 12px;
+}
+.S-md-card-info h4 span{
+    font-size: 16px;
+    font-weight: 900;
+    padding-right: 10px;
+}
+.S-md-card-info-2{
+    height: 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.S-md-card-info p{
+    font-size: .8em;
+}
+.S-md-card-info h3{
+    display: inline;
+}
+/* --------------xs-card 卡片-------------------------------- */
+
+.S-xs-card-wrap{
+    margin-top: 50px;
+    width: 250px;
+    height: 247px;
+    overflow: hidden;
+    position: relative;
+    /* border: 1px solid blue; */
+}
+.S-xs-share{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    font-size: 1.2em;
+    color: #0E2E3D;
+    background-color: #F1EDEA;
+    border-radius: 50%;
+    position: absolute;
+    top: 3%;
+    right: 3%;
+}
+.S-xs-share i{
+    font-size: 1.2em;
+}
+.S-xs-like{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    font-size: 1.2em;
+    color: #0E2E3D;
+    background-color: #F1EDEA;
+    border-radius: 50%;
+    position: absolute;
+    top: 3%;
+    right: 22%;
+}
+.S-xs-like svg{
+    width: 25px;
+    height: 25px;
+    fill: #0E2E3D;
+}
+
+
+.S-xs-card{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+}
+.S-xs-card-img{
+    width: 100%;
+    height: 100%;
+    background: url(../old_house/1521821703_54177.jpg) 70% center/ cover ;
+}
+.S-xs-card-info{
+    padding: 0 20px;
+    /* border: 1px solid rgb(45, 95, 112); */
+    background-color: #F1EDEA;
+    margin: 0;
+}
+.S-xs-card-info h4{
+    height: 1em;
+    font-size: 12px;
+}
+.S-xs-card-info h4 span{
+    font-size: 16px;
+    font-weight: 900;
+    padding-right: 10px;
+}
+.S-xs-card-info-2{
+    height: 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.S-xs-card-info p{
+    font-size: .8em;
+}
+.S-xs-card-info h3{
+    display: inline;
+}
+

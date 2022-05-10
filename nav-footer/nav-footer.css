@@ -11,6 +11,7 @@ h2,
 h3,
 p {
     margin: 0;
+
 }
 
 .bold {
@@ -24,6 +25,7 @@ h1 {
 
 h2 {
     font-weight: normal;
+
     font-size: 32px;
 }
 
@@ -46,6 +48,12 @@ p {
 
 .time {
     font-size: 48px;
+
+}
+
+.alert {
+    color: red;
+
 }
 
 .alert {
@@ -54,12 +62,8 @@ p {
 
 
 /* 以上文字 */
-.pc_pushbar {
-    height: 100px;
-}
-.phone_pushbar {
-    display: none;
-}
+
+
 .container {
     width: 100%;
     max-width: 1280px;
@@ -73,8 +77,12 @@ p {
     height: 100px;
     background-color: #F1EDEA;
     margin: auto;
+
+    display: flex;
     position: fixed;
-    z-index: 99;
+    top: 0px;
+    z-index: 999999999999;
+
 }
 
 .nav-log-out a,
@@ -88,36 +96,34 @@ p {
 
 .nav-log-out .container .row,
 .nav-log-in .container .row {
-    /* width: 100%; */
+
+
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-/* .nav-log-out .container .row div,
-.nav-log-in .container .row div {
+
+.pc_nav_left,
+.pc_nav_right {
+
     width: 33.333%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-} */
-.pc_nav_left , .pc_nav_right {
-    width: 33.333%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
 }
+
 .pc_nav_center {
     width: 33.33%;
 }
-.phone_nav_left,.phone_nav_center,.phone_nav_right {
+
+.phone_nav_left,
+.phone_nav_center,
+.phone_nav_right {
     display: none;
 }
 
-/* .nav-log-out .container .row div:nth-child(2),
-.nav-log-in .container .row div:nth-child(2) {
-    justify-content: center;
-} */
 
 .nav-log-out a img,
 .nav-log-in a img {
@@ -127,6 +133,13 @@ p {
 .phone_copyright {
     display: none;
 }
+
+
+.phone_copyright {
+    display: none;
+}
+
+
 
 /* 以上登入登出 */
 
@@ -161,7 +174,8 @@ p {
 
 .footer-down {
     width: 100%;
-    /* max-width: 1920px; */
+
+
     height: 80px;
     background-color: #F4F4F4;
     display: flex;
@@ -169,29 +183,29 @@ p {
     justify-content: space-between;
 }
 
-/* .footer-down div {
-    width: 1280px;
+
+.footer-down .container {
     display: flex;
     align-items: center;
-} */
+    justify-content: space-between;
+}
 
 .footer-down div img {
     width: 30px;
     height: 28px;
 }
 
-/* .footer-down div:nth-child(2) {
-    width: 300%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.copyright {
+    margin-right: 250px;
+
 }
 
-.footer-down div:nth-child(3) {
+.tw {
     justify-content: flex-end;
 }
 
-.footer-down div:nth-child(1) {
+.footer_icon {
+    display: flex;
     justify-content: flex-start;
 } */
 .copyright {
@@ -214,6 +228,16 @@ p {
     height: 28px;
 }
 
+
+.footer_phone_icon {
+    display: none;
+}
+
+.footer_phone_icon img {
+    width: 30px;
+    height: 28px;
+}
+
 .footer-down div:nth-child(1) img {
     margin-right: 12px;
 }
@@ -231,30 +255,34 @@ p {
 .footer-left-down a:nth-child(2) {
     margin-right: 30px;
 }
+
 .footer_icon>p {
     margin-right: 25px;
 }
+
 @media screen and (max-width:375px) {
-    .pc_pushbar {
-        display: none;
-    }
-    .phone_pushbar {
-        height: 70px;
-    }
     .nav-log-out,
     .nav-log-in {
-        position: fixed;
+        width: 100%;
+        max-width: 375px;
+
         height: 70px;
     }
     .nav-log-out a img,
     .nav-log-in a img {
-    height: 70px;
+
+        height: 70px;
+
     }
     .container {
         width: 100%;
         padding: 0 20px;
     }
-    .pc_nav_left, .pc_nav_right, .pc_nav_center  {
+
+    .pc_nav_left,
+    .pc_nav_right,
+    .pc_nav_center {
+
         display: none;
     }
     .phone_nav_left {
@@ -268,12 +296,14 @@ p {
         display: block;
     }
     .nav-log-out .container .row,
-    .nav-log-in .container .row{
+
+    .nav-log-in .container .row {
+
         height: 70px;
         justify-content: space-between;
     }
     .footer-up {
-        
+
         justify-content: center;
         height: auto;
 
@@ -307,19 +337,24 @@ p {
         width: 100%;
         margin-bottom: 30px;
     }
-    .footer-down{
+
+    .footer-down {
+
         display: none;
     }
     .phone_copyright {
         display: block;
-        width: 85% ;
+
+        width: 85%;
+
         height: 30px;
         margin: auto;
         display: flex;
         align-items: center;
         justify-content: center;
     }
-    .phone_copyright p{
+
+    .phone_copyright p {
         text-align: center;
         width: 100%;
         font-size: 12px;
